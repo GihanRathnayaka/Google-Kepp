@@ -6,7 +6,6 @@ This web application develop for gain knowledge about frontend web application d
 * Jquary
 * Scss
 
-Record New Product information and Raw Material Information etc...
  
  ## Screenshot
  
