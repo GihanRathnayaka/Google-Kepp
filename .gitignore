@@ -1,0 +1,7 @@
+node_modules/**
+error.log
+error.log.1
+out/**
+ijse.dump
+ijse.sql
+InventoryManagementSystem.iml
