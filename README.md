@@ -12,11 +12,11 @@ Record New Product information and Raw Material Information etc...
  
  1 Screenshot
  
- ![Optional Text](../master/ScreenShot/keep.PNG)
+ ![Optional Text](../master/ScreenShot/keep1.PNG)
  
  2 Screenshot
   
-  ![Optional Text](../master/ScreenShot/Second.PNG)
+  ![Optional Text](../master/ScreenShot/Second1.PNG)
   
    
 
