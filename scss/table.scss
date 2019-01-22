@@ -1,0 +1,120 @@
+.table{
+     // height: 170px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border: solid transparent;
+    border-width: 1px 1px 1px 6px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.20);
+    border-radius: 8px;
+    margin-left: 28%;
+    top: 10px;
+    // height: auto;
+    // background-color: red;
+}
+
+.table-Head{
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    
+    // background-color: aquamarine;
+}
+
+.tablehead-left{
+    display: inline-block;
+    height: 50px;
+    width: 92%;
+    background: transparent;
+}
+.text-title{
+    height: 50px;  
+    padding: 0px !important;
+    margin: 0px !important;
+    border-width: 0px;
+    width: 100%;
+    outline: non;
+    font-size: 18px;
+    background: transparent;
+}
+.text-note{
+    height: 40px;  
+    padding: 0px !important;
+    margin: 0px !important;
+    border-width: 0px;
+    width: 100%;
+    outline: non;
+    font-size: 15px;
+    background: transparent;
+    // padding-bottom: 30px;
+}
+
+.tablehead-right{
+     padding-top: 3px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    background: transparent;
+
+}
+
+.tablebody{
+    // margin-top: 1px;
+    height: 50px;
+    width: 100%;
+    //  background-color: aquamarine;
+//position: relative;
+     background: transparent;
+}
+
+.tablebody-left{
+    // padding-top: 12px;
+    // padding-left: 10px;
+    display: inline-block;
+    width: 5%;
+    background: transparent;
+
+}
+
+.tablebody-right{
+    display: inline-block;
+    width: 92.4%;
+    // background-color: red;
+    height: 50px;
+    background: transparent;
+}
+.tbale-foter{
+     position: relative;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width:100%;
+    // position: relative;  
+    // background-color: aquamarine;
+}
+
+.ico{
+    display: inline-block;
+    padding-bottom: 12px;
+    padding-top: 17px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background: transparent;
+    
+}
+
+.btnClose{
+    position: absolute;
+    // background-color: red;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    background: transparent;
+    
+}

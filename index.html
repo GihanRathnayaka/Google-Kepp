@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Keeper</title>
+    <link rel="stylesheet" href="css/maincontainers.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">    -->
+    <link rel="stylesheet" href="css/buttoncss.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/packery.css">
+    <link rel="stylesheet" href="css/gird-drag.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/additemsColors.css">
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Home Start -->
+    <div class="card-body" class="home">
+
+        <!-- table  Start -->
+        <div class="table" id="tblDetails">
+
+            <!-- table Head Start ! -->
+            <div class="table-Head" id="thead">
+                <!-- th-Left Start -->
+                <div class="tablehead-left">
+
+                    <input type="text" placeholder="   Tital" class="text-title" id="txtTitle">
+
+                </div>
+                <!-- th left end -->
+                <!-- Table head Right -->
+                <div class="tablehead-right">
+                    <i class="fas fa-thumbtack"></i>
+                </div>
+                <!-- table Head rigth End -->
+
+
+
+            </div>
+            <!-- table Head End ! -->
+
+            <!-- table body Start -->
+            <div class="card-body" id="tablebody">
+
+                <!-- Tbody-Left Start -->
+                <div class="tablebody-left">
+                    <i class="fas fa-plus"></i>
+
+                    <!-- <input type="checkbox" class="check-Me" style="font-size: 18px; height: 20px; width: 20px;"> -->
+
+                </div>
+                <!-- tBody Left End -->
+
+                <!-- TBody Right Start -->
+                <div class="tablebody-right">
+                    <input type="text" placeholder=" Take a note........" class="text-note" id="txtNote">
+                </div>
+                <!-- Tbody Right End  -->
+
+            </div>
+            <!-- table body end -->
+            <!-- TFooter Start  -->
+            <div class="tbale-foter">
+
+                <!-- Ico-Dive Start -->
+                <div class="ico">
+                    <i class="far fa-bell"></i>
+                </div>
+                <!-- ICo Div End -->
+
+                <!-- Ico-Dive Start -->
+                <div class="ico">
+                    <i class="far fa-user"></i>+
+                </div>
+                <!-- ICo Div End -->
+
+                <!-- Ico-Dive Start -->
+                <div class="ico">
+                    <i class="fas fa-palette" id="colorIco">
+
+
+                        <!-- ColorContainer Start -->
+                        <div class="color-Box">
+                            <!-- Color Start -->
+                            <div class="color-common" id="color-1">
+
+                            </div>
+                            <!-- Color End -->
+
+                            <!-- Color Start -->
+                            <div class="color-common" id="color-2">
+
+                            </div>
+                            <!-- Color End -->
+                            <!-- Color Start -->
+                            <div class="color-common" id="color-3">
+
+                            </div>
+                            <!-- Color End -->
+                            <!-- Color Start -->
+                            <div class="color-common" id="color-4">
+
+                            </div>
+                            <!-- Color End -->
+                            <!-- Color Start -->
+                            <div class="color-common" id="color-5">
+
+                            </div>
+                            <!-- Color End -->
+                            <!-- Color Start -->
+                            <div class="color-common" id="color-6">
+
+                            </div>
+                            <!-- Color End -->
+                            <!-- Color Start -->
+                            <div class="color-common" id="color-7">
+
+                            </div>
+                            <!-- Color End -->
+                            <!-- Color Start -->
+                            <div class="color-common" id="color-8">
+
+                            </div>
+                            <!-- Color End -->
+                            <!-- Color Start -->
+                            <div class="color-common" id="color-9">
+
+                            </div>
+                            <!-- Color End -->
+
+                        </div>
+                        <!-- ColorContainer End-->
+
+
+                    </i>
+                </div>
+                <!-- ICo Div End -->
+
+                <!-- Ico-Dive Start -->
+                <div class="ico">
+                    <i class="fas fa-image"></i>
+                </div>
+                <!-- ICo Div End -->
+
+                <!-- Ico-Dive Start -->
+                <div class="ico">
+                    <i class="fas fa-archive"></i>
+                </div>
+                <!-- ICo Div End -->
+
+                <!-- Ico-Dive Start -->
+                <div class="ico">
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <!-- ICo Div End -->
+
+                <!-- Ico-Dive Start -->
+                <div class="ico">
+                    <i class="fas fa-undo"></i>
+                </div>
+                <!-- ICo Div End -->
+
+                <!-- Ico-Dive Start -->
+                <div class="ico">
+                    <i class="fas fa-redo-alt"></i>
+                </div>
+                <!-- ICo Div End -->
+
+                <div class="btnClose" id="btnClose"> Close</div>
+
+            </div>
+            <!-- Tfooter End -->
+
+            <!-- table  End -->
+        </div>
+
+        <!-- <h1>Packery - jQuery UI Draggable</h1> -->
+<br>
+
+        <div class="packery" style="width: 1500px !important; background-color: transparent; ">
+           
+        </div>
+
+        <!-- <p><button id="add-items">Add more items</button> -->
+
+
+
+
+
+
+
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script>
+            <script src="js/packery.pkgd.min.js"></script>
+            <!--Home End  -->
+    </div>
+
+
+
+
+
+
+    <!--My Java Script Part Start -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/colorPalate.js"></script>
+    <script src="js/indexformLoad.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- <script src="js/draggabilly.pkgd.min.js"></script> -->
+    <!-- <script src="js/draggabilly.pkgd.js"></script> -->
+    <script src="https://draggabilly.desandro.com/draggabilly.pkgd.js"></script>
+    <script src="https://packery.metafizzy.co/packery.pkgd.js"></script>
+    <script src="js/pakary.js"></script>
+
+
+
+
+     <script>
+        
+
+        // $("s").mouseover
+
+
+    </script>
+
+    <!--My Java Script Part end -->
+
+
+
+</body>
+
+</html>

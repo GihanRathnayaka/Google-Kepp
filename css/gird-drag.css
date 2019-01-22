@@ -1,0 +1,17 @@
+.grid {
+  background-color: red !important;
+}
+
+.my-modify {
+  border: 1px solid burlywood !important;
+  border-radius: 8px !important;
+  box-shadow: 5px 10px 8px 10px #888888 !important;
+  display: inline-block !important;
+  padding: 10px !important;
+}
+
+.packery {
+  width: 1500px !important;
+}
+
+/*# sourceMappingURL=gird-drag.css.map */

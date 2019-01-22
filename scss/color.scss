@@ -1,0 +1,64 @@
+.color-Box{
+
+    height: 135px;
+    width: 140px;
+    border: 2px solid rosybrown;
+    background: transparent;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 1px;
+     position: absolute;
+    bottom: 15px;
+    visibility: hidden;
+    // visibility: visible;
+}
+
+
+#colorIco:hover{
+    cursor: pointer;
+}
+
+.color-common{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 30%;
+    border: 1px solid black;
+   // background-color: red;
+
+}
+
+#color-1{
+    margin-left: 2px;
+    background-color: white !important;
+}
+
+#color-2{
+    background-color: yellow !important;
+}
+
+#color-3{
+    background-color: violet !important;
+}
+#color-4{
+    margin-left: 2px;
+    background-color: turquoise !important;
+}
+#color-5{
+
+    background-color: tomato !important;
+}
+#color-6{
+
+    background-color: springgreen !important;
+}
+#color-7{
+    margin-left: 2px;
+    background-color:slateblue !important;
+}
+#color-8{
+    background-color: brown !important;
+}
+#color-9{
+    background-color: red !important;
+}
